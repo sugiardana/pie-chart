@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import seaborn as sns
-#import matplotlib.pyplot as plt
+import matplotlib as plt
 
 df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/HousingData.csv')
 df = df.dropna()

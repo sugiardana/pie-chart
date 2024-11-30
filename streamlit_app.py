@@ -3,6 +3,11 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+st.title("Visualisasi Data Menggunakan matplotlib")
+st.write(
+    "Contoh Penggunaan Visualisasi Data [docs.streamlit.io](https://docs.streamlit.io/)."
+)
+
 #df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/HousingData.csv')
 df = pd.read_csv('HousingData.csv')
 df = df.dropna()

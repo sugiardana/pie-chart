@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 
 df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/HousingData.csv')
 df = df.dropna()
 
 # Tampilkan histogram plot pada kolom AGE menggunakan library seaborn
-sns.histplot(df['AGE'])
-plt.show()
+#sns.histplot(df['AGE'])
+#plt.show()
 
 #Tampilkan juga histogram plot pada kolom AGE menggunakan library matplotlib, kemudian tambahkan xlabel (Umur) dan ylabel (Jumlah) dengan title (Sebaran Umur Rumah)
 plt.hist(df['AGE'])

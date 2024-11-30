@@ -26,9 +26,9 @@ plt.pie(count_chas['chas_count'], labels=count_chas['CHAS'], autopct='%1.1f%%')
 plt.show()
 st.pyplot(plt.gcf())
 
-/*
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-*/
+
+#st.title("🎈 My new app")
+#st.write(
+#    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+#)
+

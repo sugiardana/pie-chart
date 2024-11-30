@@ -3,7 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/HousingData.csv')
+#df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/HousingData.csv')
+df = pd.read_csv('HousingData.csv')
 df = df.dropna()
 
 # Tampilkan histogram plot pada kolom AGE menggunakan library seaborn
@@ -25,9 +26,9 @@ plt.pie(count_chas['chas_count'], labels=count_chas['CHAS'], autopct='%1.1f%%')
 plt.show()
 st.pyplot(plt.gcf())
 
-'''
+/*
 st.title("🎈 My new app")
 st.write(
     "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
 )
-'''
+*/

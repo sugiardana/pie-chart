@@ -8,7 +8,7 @@ df = df.dropna()
 
 # Tampilkan histogram plot pada kolom AGE menggunakan library seaborn
 sns.histplot(df['AGE'])
-#plt.show()
+plt.show()
 
 #Tampilkan juga histogram plot pada kolom AGE menggunakan library matplotlib, kemudian tambahkan xlabel (Umur) dan ylabel (Jumlah) dengan title (Sebaran Umur Rumah)
 plt.hist(df['AGE'])
